@@ -348,7 +348,7 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                         } inline-flex items-center  transition-colors font-semibold`}
                       >
                         Ver más
-                        <span className='inline-block transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300 ml-1'>
+                        <span className='inline-block transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300 ml-1.5 text-lg font-bold'>
                           →
                         </span>
                       </span>

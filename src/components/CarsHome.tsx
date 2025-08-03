@@ -323,7 +323,7 @@ const CarsHome = ({ title }: CarsHomeProps) => {
                         } inline-flex items-center  transition-colors font-semibold`}
                       >
                         Ver más
-                        <span className='inline-block transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300 ml-1'>
+                        <span className='inline-block transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300 ml-1.5 text-lg font-bold'>
                           →
                         </span>
                       </span>
@@ -357,7 +357,7 @@ const CarsHome = ({ title }: CarsHomeProps) => {
                             } inline-flex items-center text-lg transition-colors font-semibold`}
                           >
                             Ver catálogo
-                            <span className='inline-block transform translate-x-0 text-xl group-hover:translate-x-1 transition-transform duration-300 ml-1.5'>
+                            <span className='inline-block transform translate-x-0 text-xl group-hover:translate-x-1 transition-transform duration-300 ml-1.5 font-bold'>
                               →
                             </span>
                           </span>
