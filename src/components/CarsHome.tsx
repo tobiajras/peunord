@@ -338,7 +338,7 @@ const CarsHome = ({ title }: CarsHomeProps) => {
               <div className='relative overflow-hidden group-hover:border-color-primary transition-all duration-500 h-full shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] group-hover:shadow-[0_8px_30px_-10px_rgba(233,0,2,0.2)]'>
                 {/* Contenedor de la imagen de fondo */}
                 <Link href='/catalogo'>
-                  <div className='relative overflow-hidden aspect-[4/3] rounded-xl border border-color-border group'>
+                  <div className='relative overflow-hidden aspect-[4/3] rounded-xl hover:bg-color-primary/5 border border-color-border group transition-colors'>
                     {/* Contenido centrado */}
                     <div className='absolute inset-0 flex flex-col items-center justify-center p-6 '>
                       <div className='text-center'>
