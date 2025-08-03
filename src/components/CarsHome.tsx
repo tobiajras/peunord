@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { company } from '@/app/constants/constants';
 import data from '@/data/data.json';
+import CarStrokeIcon from './icons/CarStrokeIcon';
 
 interface Imagen {
   id: string;
@@ -51,102 +52,75 @@ interface Auto {
   Category: Categoria;
 }
 
-interface CarrouselRelatedProps {
+interface CarsHomeProps {
   title: string;
-  currentCarId: string;
-  categoryId: string;
 }
 
-const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
+const CarsHome = ({ title }: CarsHomeProps) => {
   const [emblaRef] = useEmblaCarousel({ dragFree: true });
   const [clicked, setClicked] = useState(false);
-  const [relatedCars, setRelatedCars] = useState<Auto[]>([]);
-  const [cargando, setCargando] = useState(true);
+  const [vehiculos, setVehiculos] = useState<Auto[]>([]);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const obtenerRelacionados = () => {
-      setCargando(true);
+    const loadVehiculos = () => {
+      setLoading(true);
       try {
-        // Encontrar el auto actual y su categoría
-        const autoActual = data.cars.find((auto) => auto.id === currentCarId);
-        if (!autoActual) {
-          throw new Error('Auto no encontrado');
-        }
-
-        // Función para mezclar array aleatoriamente (Fisher-Yates shuffle)
-        const shuffleArray = <T,>(array: T[]): T[] => {
-          const shuffled = [...array];
-          for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-          }
-          return shuffled;
-        };
-
-        // Obtener todos los autos excepto el actual
-        const autosDisponibles = data.cars.filter(
-          (auto) => auto.id !== currentCarId
-        );
-
-        // Mezclar aleatoriamente y tomar máximo 10
-        const autosAleatorios = shuffleArray(autosDisponibles).slice(0, 10);
-
-        const autosRelacionados = autosAleatorios.map((auto) => ({
-          id: auto.id,
-          brand: auto.brand,
-          model: auto.mlTitle,
-          year: auto.year,
-          color: auto.color,
-          price: {
-            valor: auto.price,
-            moneda: auto.currency,
-          },
-          description: auto.description,
-          position: auto.position,
-          featured: auto.featured,
-          favorite: auto.favorite,
-          active: auto.active,
-          categoryId: auto.categoryId,
-          mileage: auto.mileage,
-          transmission: auto.transmission,
-          fuel: auto.fuel,
-          doors: auto.doors,
-          createdAt: auto.createdAt,
-          updatedAt: auto.updatedAt,
-          Images: auto.images.map((img, index) => ({
-            id: `${auto.id}-img-${index}`,
-            carId: auto.id,
-            imageUrl: img.thumbnailUrl,
-            thumbnailUrl: img.thumbnailUrl,
-            order: index,
+        const vehiculosProcesados = data.cars
+          .slice(0, 6) // Máximo 6 vehículos
+          .map((auto) => ({
+            id: auto.id,
+            brand: auto.brand,
+            model: auto.mlTitle,
+            year: auto.year,
+            color: auto.color,
+            price: {
+              valor: auto.price,
+              moneda: auto.currency,
+            },
+            description: auto.description,
+            position: auto.position,
+            featured: auto.featured,
+            favorite: auto.favorite,
+            active: auto.active,
+            categoryId: auto.categoryId,
+            mileage: auto.mileage,
+            transmission: auto.transmission,
+            fuel: auto.fuel,
+            doors: auto.doors,
             createdAt: auto.createdAt,
             updatedAt: auto.updatedAt,
-          })),
-          Category: {
-            id: auto.Category.id,
-            name: auto.Category.name,
-            createdAt: auto.createdAt,
-            updatedAt: auto.updatedAt,
-          },
-        }));
+            Images: auto.images.map((img, index) => ({
+              id: `${auto.id}-img-${index}`,
+              carId: auto.id,
+              imageUrl: img.thumbnailUrl,
+              thumbnailUrl: img.thumbnailUrl,
+              order: index,
+              createdAt: auto.createdAt,
+              updatedAt: auto.updatedAt,
+            })),
+            Category: {
+              id: auto.Category.id,
+              name: auto.Category.name,
+              createdAt: auto.createdAt,
+              updatedAt: auto.updatedAt,
+            },
+          }));
 
-        setRelatedCars(autosRelacionados);
+        setVehiculos(vehiculosProcesados);
       } catch (err) {
-        console.error(
-          'Error al cargar vehículos relacionados del catálogo:',
-          err
-        );
-        setError('No se pudieron cargar los vehículos relacionados');
+        console.error('Error al cargar vehículos:', err);
+        setError('No se pudieron cargar los vehículos');
       } finally {
-        setCargando(false);
+        setLoading(false);
       }
     };
 
-    obtenerRelacionados();
-  }, [currentCarId]);
+    loadVehiculos();
+  }, []);
 
-  if (cargando) {
+  if (loading) {
     return (
       <section className='flex justify-center w-full bg-color-bg-primary'>
         <div className='max-w-7xl w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10 overflow-hidden'>
@@ -180,7 +154,7 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
     );
   }
 
-  if (relatedCars.length === 0) {
+  if (vehiculos.length === 0) {
     return (
       <section className='flex justify-center w-full bg-color-bg-primary'>
         <div className='max-w-7xl w-full mx-4 sm:mx-6 md:mx-8 lg:mx-10 overflow-hidden'>
@@ -191,7 +165,7 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
             </h3>
           </div>
           <div className='text-center py-8 text-color-text'>
-            No hay vehículos relacionados disponibles
+            No hay vehículos disponibles
           </div>
         </div>
       </section>
@@ -215,7 +189,8 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
           className={`${clicked ? 'cursor-grabbing' : 'cursor-grab'}`}
         >
           <div className='flex gap-6 sm:gap-7 md:gap-8'>
-            {relatedCars.map((auto) => (
+            {/* Vehículos */}
+            {vehiculos.map((auto) => (
               <Link
                 href={`/catalogo/${auto.id}`}
                 className='w-full relative overflow-hidden flex-[0_0_75%] min-[500px]:flex-[0_0_55%] sm:flex-[0_0_40%] lg:flex-[0_0_30%] xl:flex-[0_0_26%]'
@@ -357,6 +332,42 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
                 </div>
               </Link>
             ))}
+
+            {/* Card "Ver todos" */}
+            <div className='w-full relative overflow-hidden flex-[0_0_75%] min-[500px]:flex-[0_0_55%] sm:flex-[0_0_40%] lg:flex-[0_0_30%] xl:flex-[0_0_26%]'>
+              <div className='relative overflow-hidden group-hover:border-color-primary transition-all duration-500 h-full shadow-[0_8px_30px_-15px_rgba(0,0,0,0.7)] group-hover:shadow-[0_8px_30px_-10px_rgba(233,0,2,0.2)]'>
+                {/* Contenedor de la imagen de fondo */}
+                <Link href='/catalogo'>
+                  <div className='relative overflow-hidden aspect-[4/3] rounded-xl border border-color-border group'>
+                    {/* Contenido centrado */}
+                    <div className='absolute inset-0 flex flex-col items-center justify-center p-6 '>
+                      <div className='text-center'>
+                        {/* Icono de auto */}
+                        <div className='w-20 h-20 rounded-full bg-color-primary/10 flex items-center justify-center mb-6 mx-auto'>
+                          <CarStrokeIcon className='w-12 h-12 text-color-primary' />
+                        </div>
+
+                        {/* Título con flecha */}
+                        <div className='md:mt-1'>
+                          <span
+                            className={`${
+                              company.dark
+                                ? 'text-color-primary group-hover:text-color-primary-dark'
+                                : 'text-color-primary group-hover:text-color-primary-dark'
+                            } inline-flex items-center text-lg transition-colors font-semibold`}
+                          >
+                            Ver catálogo
+                            <span className='inline-block transform translate-x-0 text-xl group-hover:translate-x-1 transition-transform duration-300 ml-1.5'>
+                              →
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -364,4 +375,4 @@ const CarrouselRelated = ({ title, currentCarId }: CarrouselRelatedProps) => {
   );
 };
 
-export default CarrouselRelated;
+export default CarsHome;

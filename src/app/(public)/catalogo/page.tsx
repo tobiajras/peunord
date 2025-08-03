@@ -18,7 +18,7 @@ import {
 import CloseIcon from '@/components/icons/CloseIcon';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import catalogo from '@/data/catalogo.json';
+import data from '@/data/data.json';
 
 interface ApiCar {
   id: string;
@@ -86,7 +86,7 @@ const CatalogoPage = () => {
     try {
       // Obtener marcas únicas del catálogo
       const marcas = Array.from(
-        new Set(catalogo.map((car) => car.marca))
+        new Set(data.cars.map((car) => car.brand))
       ).sort();
       setTodasLasMarcas(marcas);
     } catch (error) {
@@ -99,7 +99,7 @@ const CatalogoPage = () => {
     try {
       // Obtener categorías únicas del catálogo
       const categoriasUnicas = Array.from(
-        new Set(catalogo.map((car) => car.categoria))
+        new Set(data.cars.map((car) => car.Category.name))
       );
       const categoriasProcesadas = categoriasUnicas.map((cat) => ({
         id: cat.toLowerCase(),
@@ -120,26 +120,26 @@ const CatalogoPage = () => {
   ) => {
     setLoading(true);
     try {
-      let filteredCars = [...catalogo];
+      let filteredCars = [...data.cars];
 
       // Aplicar filtros
       if (filters?.search) {
         const searchTerm = filters.search.toLowerCase();
         filteredCars = filteredCars.filter(
           (car) =>
-            car.name.toLowerCase().includes(searchTerm) ||
-            car.marca.toLowerCase().includes(searchTerm)
+            car.mlTitle.toLowerCase().includes(searchTerm) ||
+            car.brand.toLowerCase().includes(searchTerm)
         );
       }
       if (filters?.marca) {
         filteredCars = filteredCars.filter(
-          (car) => car.marca.toLowerCase() === filters.marca?.toLowerCase()
+          (car) => car.brand.toLowerCase() === filters.marca?.toLowerCase()
         );
       }
       if (filters?.categoria) {
         filteredCars = filteredCars.filter(
           (car) =>
-            car.categoria.toLowerCase() === filters.categoria?.toLowerCase()
+            car.Category.name.toLowerCase() === filters.categoria?.toLowerCase()
         );
       }
 
@@ -154,35 +154,35 @@ const CatalogoPage = () => {
         .slice(start, end)
         .map((car) => ({
           id: car.id,
-          brand: car.marca,
-          model: car.name,
-          year: car.ano,
-          color: '',
+          brand: car.brand,
+          model: car.mlTitle,
+          year: car.year,
+          color: car.color,
           price: {
-            valor: car.precio.valor,
-            moneda: car.precio.moneda,
+            valor: car.price,
+            moneda: car.currency,
           },
-          description: car.descripcion,
-          categoryId: car.categoria,
-          mileage: car.kilometraje,
-          transmission: car.transmision,
-          fuel: car.combustible,
-          doors: car.puertas,
-          position: 0,
-          featured: false,
-          favorite: false,
-          active: true,
-          createdAt: new Date().toISOString(),
-          updatedAt: new Date().toISOString(),
+          description: car.description,
+          categoryId: car.categoryId,
+          mileage: car.mileage,
+          transmission: car.transmission,
+          fuel: car.fuel,
+          doors: car.doors,
+          position: car.position,
+          featured: car.featured,
+          favorite: car.favorite,
+          active: car.active,
+          createdAt: car.createdAt,
+          updatedAt: car.updatedAt,
           Category: {
-            id: car.categoria.toLowerCase(),
-            name: car.categoria,
-            createdAt: new Date().toISOString(),
-            updatedAt: new Date().toISOString(),
+            id: car.Category.id,
+            name: car.Category.name,
+            createdAt: car.createdAt,
+            updatedAt: car.updatedAt,
           },
-          Images: car.images.map((img, index) => ({
-            thumbnailUrl: `/assets/catalogo/${img}`,
-            imageUrl: `/assets/catalogo/${img}`,
+          Images: car.images.map((img: any, index: number) => ({
+            thumbnailUrl: img.thumbnailUrl,
+            imageUrl: img.thumbnailUrl,
             order: index,
           })),
         }));
