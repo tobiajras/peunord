@@ -5,7 +5,6 @@ import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';
 import ArrowIcon from './icons/ArrowIcon';
 import CloseIcon from './icons/CloseIcon';
-import { company } from '@/app/constants/constants';
 
 interface ImageGalleryModalProps {
   images: string[];

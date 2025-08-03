@@ -180,11 +180,13 @@ const CatalogoPage = () => {
             createdAt: car.createdAt,
             updatedAt: car.updatedAt,
           },
-          Images: car.images.map((img: any, index: number) => ({
-            thumbnailUrl: img.thumbnailUrl,
-            imageUrl: img.thumbnailUrl,
-            order: index,
-          })),
+          Images: car.images.map(
+            (img: { thumbnailUrl: string }, index: number) => ({
+              thumbnailUrl: img.thumbnailUrl,
+              imageUrl: img.thumbnailUrl,
+              order: index,
+            })
+          ),
         }));
 
       setCars(paginatedCars);
