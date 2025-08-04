@@ -4,297 +4,18 @@
   "currentPage": 1,
   "cars": [
     {
-      "price": 21000000,
+      "price": 24000000,
       "position": 1000,
       "downPayment": null,
-      "id": "generated-1754185486241-0",
-      "brand": "Citroën",
-      "model": "C4",
-      "year": 2018,
-      "color": "Gris",
-      "currency": "ARS",
-      "description": "Parque Automotores | Más de 50 años de confianza y experienciaEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.Estamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.Contamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.Te esperamos de lunes a sábado de 9 a 18 horas.Elegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
-      "mileage": 82000,
-      "transmission": "Manual",
-      "fuel": "Nafta",
-      "doors": 4,
-      "active": true,
-      "featured": false,
-      "favorite": false,
-      "lastFeaturedAt": null,
-      "lastFavoriteAt": null,
-      "mlId": "MLA2070001042",
-      "mlUrl": "auto.mercadolibre.com.ar/MLA-2070001042-citroen-c4-lounge-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
-      "mlTitle": "Citroën C4 Lounge 1.6 Hdi 115 Feel Pack",
-      "mlCleanPrice": null,
-      "mlLocation": null,
-      "mlCondition": null,
-      "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
-      "mlPower": null,
-      "mlGears": null,
-      "mlDimensions": null,
-      "mlFuelCapacity": null,
-      "mlValvesPerCylinder": null,
-      "mlSeatCapacity": null,
-      "mlTractionControl": null,
-      "mlAbsBrakes": null,
-      "mlAutoHeadlights": null,
-      "mlAirbags": null,
-      "mlStabilityControl": null,
-      "mlSingleOwner": null,
-      "mlAcceptsTrade": null,
-      "mlAirConditioning": null,
-      "mlBoardComputer": null,
-      "mlRainSensor": null,
-      "mlRemoteRadioControl": null,
-      "mlAssistedSteering": null,
-      "mlAlarm": null,
-      "mlAlloyWheels": null,
-      "mlCd": null,
-      "mlLeatherSeats": null,
-      "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-0",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-0",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
-      "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
-      },
-      "images": [
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_840192-MLA84246612047_042025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_855632-MLA83951551086_042025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_760024-MLA83951551088_042025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_879949-MLA84246602157_042025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_830502-MLA83951551464_042025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_875469-MLA84246602541_042025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_848985-MLA83951826602_042025-F.webp"
-        }
-      ]
-    },
-    {
-      "price": 13500000,
-      "position": 2000,
-      "downPayment": null,
-      "id": "generated-1754185486241-1",
-      "brand": "Fiat",
-      "model": "Sporting",
-      "year": 2013,
-      "color": "Rojo",
-      "currency": "ARS",
-      "description": "[30/4/25 20:12:27] Carola: Parque Automotores | Más de 50 años de confianza y experienciaEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.Estamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.Contamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.Te esperamos de lunes a sábado de 9 a 18 horas.Elegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
-      "mileage": 85000,
-      "transmission": "Manual",
-      "fuel": "Nafta",
-      "doors": 4,
-      "active": true,
-      "featured": false,
-      "favorite": false,
-      "lastFeaturedAt": null,
-      "lastFavoriteAt": null,
-      "mlId": "MLA1494464941",
-      "mlUrl": "auto.mercadolibre.com.ar/MLA-1494464941-fiat-sporting-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
-      "mlTitle": "Fiat Sporting 1.6 Sporting",
-      "mlCleanPrice": null,
-      "mlLocation": null,
-      "mlCondition": null,
-      "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
-      "mlPower": null,
-      "mlGears": null,
-      "mlDimensions": null,
-      "mlFuelCapacity": null,
-      "mlValvesPerCylinder": null,
-      "mlSeatCapacity": null,
-      "mlTractionControl": null,
-      "mlAbsBrakes": null,
-      "mlAutoHeadlights": null,
-      "mlAirbags": null,
-      "mlStabilityControl": null,
-      "mlSingleOwner": null,
-      "mlAcceptsTrade": null,
-      "mlAirConditioning": null,
-      "mlBoardComputer": null,
-      "mlRainSensor": null,
-      "mlRemoteRadioControl": null,
-      "mlAssistedSteering": null,
-      "mlAlarm": null,
-      "mlAlloyWheels": null,
-      "mlCd": null,
-      "mlLeatherSeats": null,
-      "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-1",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-1",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
-      "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
-      },
-      "images": [
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_715992-MLA83998288366_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_777478-MLA83998385364_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_700128-MLA83998385366_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_687342-MLA83998268644_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_654492-MLA83998307828_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_940624-MLA83998298088_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_889335-MLA83998327868_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_999065-MLA83998317898_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_608494-MLA83998327876_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_772020-MLA83998288506_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_824064-MLA83998298278_052025-F.webp"
-        }
-      ]
-    },
-    {
-      "price": 20800000,
-      "position": 3000,
-      "downPayment": null,
-      "id": "generated-1754185486241-2",
-      "brand": "Fiat",
-      "model": "Argo",
-      "year": 2020,
-      "color": "No especificado",
-      "currency": "ARS",
-      "description": "",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
-      "mileage": 86700,
-      "transmission": "Manual",
-      "fuel": "Nafta",
-      "doors": 5,
-      "active": true,
-      "featured": false,
-      "favorite": false,
-      "lastFeaturedAt": null,
-      "lastFavoriteAt": null,
-      "mlId": "MLA1494388009",
-      "mlUrl": "auto.mercadolibre.com.ar/MLA-1494388009-fiat-argo-2020-18-precision-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
-      "mlTitle": "Fiat Argo 1.8 Precision",
-      "mlCleanPrice": null,
-      "mlLocation": null,
-      "mlCondition": null,
-      "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
-      "mlPower": null,
-      "mlGears": null,
-      "mlDimensions": null,
-      "mlFuelCapacity": null,
-      "mlValvesPerCylinder": null,
-      "mlSeatCapacity": null,
-      "mlTractionControl": null,
-      "mlAbsBrakes": null,
-      "mlAutoHeadlights": null,
-      "mlAirbags": null,
-      "mlStabilityControl": null,
-      "mlSingleOwner": null,
-      "mlAcceptsTrade": null,
-      "mlAirConditioning": null,
-      "mlBoardComputer": null,
-      "mlRainSensor": null,
-      "mlRemoteRadioControl": null,
-      "mlAssistedSteering": null,
-      "mlAlarm": null,
-      "mlAlloyWheels": null,
-      "mlCd": null,
-      "mlLeatherSeats": null,
-      "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-2",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-2",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
-      "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
-      },
-      "images": [
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_725062-MLA77219589007_062024-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_888868-MLA77008594094_062024-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_665581-MLA77219765045_062024-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_947857-MLA77219765043_062024-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_741468-MLA77219627521_062024-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_659108-MLA77219677155_062024-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_918945-MLA77219765073_062024-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_894094-MLA77219726185_062024-F.webp"
-        }
-      ]
-    },
-    {
-      "price": 24000000,
-      "position": 4000,
-      "downPayment": null,
-      "id": "generated-1754185486241-3",
+      "id": "generated-1754339829259-0",
       "brand": "Renault",
       "model": "Stepway",
       "year": 2023,
       "color": "Rojo",
       "currency": "ARS",
-      "description": "AGENCIA PARQUEAUTOMORES- ESTAMOS EN ISIDRO CASANOVA, Juan manuel de rosas 8798.- LUNES a SABADO 9 a 18.30hs - GONZALO / ALEJANDRO / EZEQUIELCon mas de 50 años con experiencia en automotores. VEHICULOS EN STOCK- EVALUAMOS PERMUTA-FINANCIAMOS- COMPRAMOS / VENDEMOS TU AUTO, CAMIONETA, MOTO.",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
+      "description": "AGENCIA PARQUEAUTOMORES\n\n- ESTAMOS EN ISIDRO CASANOVA, Juan manuel de rosas 8798.\n- LUNES a SABADO 9 a 18.30hs \n- GONZALO / ALEJANDRO / EZEQUIEL\nCon mas de 50 años con experiencia en automotores. \n\nVEHICULOS EN STOCK\n- EVALUAMOS PERMUTA\n-FINANCIAMOS\n- COMPRAMOS / VENDEMOS TU AUTO, CAMIONETA, MOTO.",
+      "categoryId": "hatchback",
+      "dealershipId": "dealership-parque-automotores",
       "mileage": 40000,
       "transmission": "Manual",
       "fuel": "Nafta",
@@ -306,14 +27,14 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1487677345",
       "mlUrl": "auto.mercadolibre.com.ar/MLA-1487677345-renault-step-way-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
       "mlTitle": "Renault Stepway 1.6 Intens 16v",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
+      "mlBodyType": "Hatchback",
+      "mlEngine": "1.6",
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -337,58 +58,58 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-3",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-3",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
+      "mlImagesHash": "hash-1754339829259-0",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-0",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
       "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
+        "id": "hatchback",
+        "name": "hatchback"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_929716-MLA83598139179_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_929716-MLA83598139179_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_989283-MLA83598023047_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_989283-MLA83598023047_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_962062-MLA83598151371_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_962062-MLA83598151371_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_667695-MLA83306688930_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_667695-MLA83306688930_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_645191-MLA83598199999_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_645191-MLA83598199999_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_983367-MLA83597944237_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_983367-MLA83597944237_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_848645-MLA83306688962_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_848645-MLA83306688962_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_934312-MLA83598023093_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_934312-MLA83598023093_042025-OO.jpg"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_989385-MLA83598327985_042025-F.webp"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_989385-MLA83598327985_042025-OO.jpg"
         }
       ]
     },
     {
       "price": 25000000,
-      "position": 5000,
+      "position": 2000,
       "downPayment": null,
-      "id": "generated-1754185486241-4",
+      "id": "generated-1754339829259-1",
       "brand": "Ford",
       "model": "Ecosport",
       "year": 2020,
       "color": "Blanco",
       "currency": "ARS",
-      "description": "Parque Automotores | Más de 50 años de confianza y experienciaEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.Estamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.Contamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.Te esperamos de lunes a sábado de 9 a 18 horas.Elegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
+      "description": "Parque Automotores | Más de 50 años de confianza y experiencia\n\nEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.\nEstamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.\nContamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.\nTe esperamos de lunes a sábado de 9 a 18 horas.\n\nElegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
+      "categoryId": "rural",
+      "dealershipId": "dealership-parque-automotores",
       "mileage": 75000,
       "transmission": "Automática",
       "fuel": "Nafta",
@@ -400,14 +121,14 @@
       "lastFavoriteAt": null,
       "mlId": "MLA2069858242",
       "mlUrl": "auto.mercadolibre.com.ar/MLA-2069858242-ford-ecosport-titanium-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
       "mlTitle": "Ford Ecosport 1.5 Titanium",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
+      "mlBodyType": "Rural",
+      "mlEngine": "1.5",
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -431,14 +152,14 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-4",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-4",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
+      "mlImagesHash": "hash-1754339829259-1",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-1",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
       "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
+        "id": "rural",
+        "name": "rural"
       },
       "images": [
         {
@@ -468,122 +189,37 @@
       ]
     },
     {
-      "price": 75000000,
-      "position": 6000,
+      "price": 20800000,
+      "position": 3000,
       "downPayment": null,
-      "id": "generated-1754185486241-5",
-      "brand": "Toyota",
-      "model": "Hilux",
-      "year": 2024,
-      "color": "Rojo",
+      "id": "generated-1754339829259-2",
+      "brand": "Fiat",
+      "model": "Argo",
+      "year": 2020,
+      "color": "No especificado",
       "currency": "ARS",
-      "description": "Parque Automotores | Más de 50 años de confianza y experienciaEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.Estamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.Contamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.Te esperamos de lunes a sábado de 9 a 18 horas.Elegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
-      "mileage": 1200,
-      "transmission": "Automática",
-      "fuel": "Nafta",
-      "doors": 4,
-      "active": true,
-      "featured": false,
-      "favorite": false,
-      "lastFeaturedAt": null,
-      "lastFavoriteAt": null,
-      "mlId": "MLA1494303591",
-      "mlUrl": "auto.mercadolibre.com.ar/MLA-1494303591-toyota-hilux-gr4-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
-      "mlTitle": "Toyota Hilux Gr4 2.8 Gr4",
-      "mlCleanPrice": null,
-      "mlLocation": null,
-      "mlCondition": null,
-      "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
-      "mlPower": null,
-      "mlGears": null,
-      "mlDimensions": null,
-      "mlFuelCapacity": null,
-      "mlValvesPerCylinder": null,
-      "mlSeatCapacity": null,
-      "mlTractionControl": null,
-      "mlAbsBrakes": null,
-      "mlAutoHeadlights": null,
-      "mlAirbags": null,
-      "mlStabilityControl": null,
-      "mlSingleOwner": null,
-      "mlAcceptsTrade": null,
-      "mlAirConditioning": null,
-      "mlBoardComputer": null,
-      "mlRainSensor": null,
-      "mlRemoteRadioControl": null,
-      "mlAssistedSteering": null,
-      "mlAlarm": null,
-      "mlAlloyWheels": null,
-      "mlCd": null,
-      "mlLeatherSeats": null,
-      "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-5",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-5",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
-      "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
-      },
-      "images": [
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_648156-MLA84294015099_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_671665-MLA84293985377_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_879762-MLA84293975981_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_734553-MLA84293985375_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_898951-MLA84293985381_052025-F.webp"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_867562-MLA84293976003_052025-F.webp"
-        }
-      ]
-    },
-    {
-      "price": 34000,
-      "position": 7000,
-      "downPayment": null,
-      "id": "generated-1754185486241-6",
-      "brand": "Amarok",
-      "model": "V6",
-      "year": 2019,
-      "color": "Azul",
-      "currency": "USD",
       "description": "",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
-      "mileage": 73000,
+      "categoryId": "hatchback",
+      "dealershipId": "dealership-parque-automotores",
+      "mileage": 86700,
       "transmission": "Manual",
-      "fuel": "Diésel",
-      "doors": 4,
+      "fuel": "Nafta",
+      "doors": 5,
       "active": true,
       "featured": false,
       "favorite": false,
       "lastFeaturedAt": null,
       "lastFavoriteAt": null,
-      "mlId": "MLA1491557107",
-      "mlUrl": "auto.mercadolibre.com.ar/MLA-1491557107-amarok-v6-comfortline-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
-      "mlTitle": "Amarok V6 Comfortline V6",
+      "mlId": "MLA1494388009",
+      "mlUrl": "auto.mercadolibre.com.ar/MLA-1494388009-fiat-argo-2020-18-precision-_JM",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
+      "mlTitle": "Fiat Argo 1.8 Precision",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
+      "mlBodyType": "Hatchback",
+      "mlEngine": "1.8",
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -607,54 +243,57 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-6",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-6",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
+      "mlImagesHash": "hash-1754339829259-2",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-2",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
       "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
+        "id": "hatchback",
+        "name": "hatchback"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_708924-MLA84005570107_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_725062-MLA77219589007_062024-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_904323-MLA84005539939_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_888868-MLA77008594094_062024-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_830856-MLA83712030866_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_665581-MLA77219765045_062024-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_698548-MLA84005599259_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_947857-MLA77219765043_062024-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_620938-MLA83712030868_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_741468-MLA77219627521_062024-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_816006-MLA84005539933_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_659108-MLA77219677155_062024-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_937041-MLA84005629109_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_918945-MLA77219765073_062024-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_894094-MLA77219726185_062024-F.webp"
         }
       ]
     },
     {
       "price": 21000000,
-      "position": 8000,
+      "position": 4000,
       "downPayment": null,
-      "id": "generated-1754185486241-7",
-      "brand": "Ford",
-      "model": "Focus",
+      "id": "generated-1754339829259-3",
+      "brand": "Citroën",
+      "model": "C4",
       "year": 2018,
       "color": "Gris",
       "currency": "ARS",
-      "description": "Somos una agencia llamada Parqueautomotres, con mas de 50 años de experiencia. Estamos de lunes a sábado de 9 a 18 hrs. En la Matanza, Isidro Casanova Juan Manuel de Rosas 8798",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
-      "mileage": 118000,
-      "transmission": "Automática",
+      "description": "Parque Automotores | Más de 50 años de confianza y experiencia\n\nEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.\nEstamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.\nContamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.\nTe esperamos de lunes a sábado de 9 a 18 horas.\n\nElegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
+      "categoryId": "sedán",
+      "dealershipId": "dealership-parque-automotores",
+      "mileage": 82000,
+      "transmission": "Manual",
       "fuel": "Nafta",
       "doors": 4,
       "active": true,
@@ -662,16 +301,16 @@
       "favorite": false,
       "lastFeaturedAt": null,
       "lastFavoriteAt": null,
-      "mlId": "MLA1493536737",
-      "mlUrl": "auto.mercadolibre.com.ar/MLA-1493536737-ford-focus-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
-      "mlTitle": "Ford Focus Se Plus",
+      "mlId": "MLA2070001042",
+      "mlUrl": "auto.mercadolibre.com.ar/MLA-2070001042-citroen-c4-lounge-_JM",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
+      "mlTitle": "Citroën C4 Lounge 1.6 Hdi 115 Feel Pack",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
+      "mlBodyType": "Sedán",
+      "mlEngine": "1.6",
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -695,55 +334,52 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-7",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-7",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
+      "mlImagesHash": "hash-1754339829259-3",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-3",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
       "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
+        "id": "sedán",
+        "name": "sedán"
       },
       "images": [
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_860364-MLA83908697110_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_840192-MLA84246612047_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_728400-MLA84203052715_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_855632-MLA83951551086_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_684861-MLA83908459206_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_760024-MLA83951551088_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_771529-MLA83908469368_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_879949-MLA84246602157_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_803364-MLA84202904285_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_830502-MLA83951551464_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_702207-MLA83908469366_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_875469-MLA84246602541_042025-F.webp"
         },
         {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_624192-MLA83908528760_042025-OO.jpg"
-        },
-        {
-          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_628619-MLA83908558670_042025-OO.jpg"
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_848985-MLA83951826602_042025-F.webp"
         }
       ]
     },
     {
       "price": 75000000,
-      "position": 9000,
+      "position": 5000,
       "downPayment": null,
-      "id": "generated-1754185486241-8",
+      "id": "generated-1754339829259-4",
       "brand": "Toyota",
       "model": "Hilux",
       "year": 2024,
       "color": "Negro",
       "currency": "ARS",
-      "description": "Parque Automotores | Más de 50 años de confianza y experienciaEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.Estamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.Contamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.Te esperamos de lunes a sábado de 9 a 18 horas.Elegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
+      "description": "Parque Automotores | Más de 50 años de confianza y experiencia\n\nEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.\nEstamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.\nContamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.\nTe esperamos de lunes a sábado de 9 a 18 horas.\n\nElegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
+      "categoryId": "pick-up",
+      "dealershipId": "dealership-parque-automotores",
       "mileage": 1200,
       "transmission": "Automática",
       "fuel": "Nafta",
@@ -755,14 +391,14 @@
       "lastFavoriteAt": null,
       "mlId": "MLA1494303669",
       "mlUrl": "auto.mercadolibre.com.ar/MLA-1494303669-toyota-hilux-gr4-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
       "mlTitle": "Toyota Hilux Gr4 2.8",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
+      "mlBodyType": "Pick-Up",
+      "mlEngine": "2.8",
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -786,14 +422,14 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-8",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-8",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
+      "mlImagesHash": "hash-1754339829259-4",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-4",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
       "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
+        "id": "pick-up",
+        "name": "pick-up"
       },
       "images": [
         {
@@ -850,37 +486,37 @@
       ]
     },
     {
-      "price": 73000000,
-      "position": 10000,
+      "price": 13500000,
+      "position": 6000,
       "downPayment": null,
-      "id": "generated-1754185486241-9",
-      "brand": "Toyota",
-      "model": "Hilux",
-      "year": 2022,
-      "color": "Blanco",
+      "id": "generated-1754339829259-5",
+      "brand": "Fiat",
+      "model": "Sporting",
+      "year": 2013,
+      "color": "Rojo",
       "currency": "ARS",
-      "description": "Parque Automotores | Más de 50 años de confianza y experienciaEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.Estamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.Contamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.Te esperamos de lunes a sábado de 9 a 18 horas.Elegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
-      "mileage": 70000,
-      "transmission": "Automática",
-      "fuel": "Diésel",
-      "doors": 5,
+      "description": "[30/4/25 20:12:27] Carola: Parque Automotores | Más de 50 años de confianza y experiencia\n\nEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.\nEstamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.\nContamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.\nTe esperamos de lunes a sábado de 9 a 18 horas.\n\nElegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
+      "categoryId": "sedán",
+      "dealershipId": "dealership-parque-automotores",
+      "mileage": 85000,
+      "transmission": "Manual",
+      "fuel": "Nafta",
+      "doors": 4,
       "active": true,
       "featured": false,
       "favorite": false,
       "lastFeaturedAt": null,
       "lastFavoriteAt": null,
-      "mlId": "MLA2084346344",
-      "mlUrl": "auto.mercadolibre.com.ar/MLA-2084346344-toyota-sw4-gr-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
-      "mlTitle": "Toyota Hilux Sw4 Gr 7 Asientos",
+      "mlId": "MLA1494464941",
+      "mlUrl": "auto.mercadolibre.com.ar/MLA-1494464941-fiat-sporting-_JM",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
+      "mlTitle": "Fiat Sporting 1.6 Sporting",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
+      "mlBodyType": "Sedán",
+      "mlEngine": "1.6",
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -904,14 +540,114 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-9",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-9",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
+      "mlImagesHash": "hash-1754339829259-5",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-5",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
       "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-        "name": "autos"
+        "id": "sedán",
+        "name": "sedán"
+      },
+      "images": [
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_715992-MLA83998288366_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_777478-MLA83998385364_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_700128-MLA83998385366_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_687342-MLA83998268644_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_654492-MLA83998307828_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_940624-MLA83998298088_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_889335-MLA83998327868_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_999065-MLA83998317898_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_608494-MLA83998327876_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_772020-MLA83998288506_052025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_824064-MLA83998298278_052025-OO.jpg"
+        }
+      ]
+    },
+    {
+      "price": 73000000,
+      "position": 7000,
+      "downPayment": null,
+      "id": "generated-1754339829259-6",
+      "brand": "Toyota",
+      "model": "Hilux",
+      "year": 2022,
+      "color": "Blanco",
+      "currency": "ARS",
+      "description": "Parque Automotores | Más de 50 años de confianza y experiencia\n\nEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.\nEstamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.\nContamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.\nTe esperamos de lunes a sábado de 9 a 18 horas.\n\nElegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
+      "categoryId": "suv",
+      "dealershipId": "dealership-parque-automotores",
+      "mileage": 70000,
+      "transmission": "Automática",
+      "fuel": "Diésel",
+      "doors": 5,
+      "active": true,
+      "featured": false,
+      "favorite": false,
+      "lastFeaturedAt": null,
+      "lastFavoriteAt": null,
+      "mlId": "MLA2084346344",
+      "mlUrl": "auto.mercadolibre.com.ar/MLA-2084346344-toyota-sw4-gr-_JM",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
+      "mlTitle": "Toyota Hilux Sw4 Gr 7 Asientos",
+      "mlCleanPrice": null,
+      "mlLocation": null,
+      "mlCondition": null,
+      "mlListId": null,
+      "mlBodyType": "SUV",
+      "mlEngine": "2.8",
+      "mlPower": null,
+      "mlGears": null,
+      "mlDimensions": null,
+      "mlFuelCapacity": null,
+      "mlValvesPerCylinder": null,
+      "mlSeatCapacity": null,
+      "mlTractionControl": null,
+      "mlAbsBrakes": null,
+      "mlAutoHeadlights": null,
+      "mlAirbags": null,
+      "mlStabilityControl": null,
+      "mlSingleOwner": null,
+      "mlAcceptsTrade": null,
+      "mlAirConditioning": null,
+      "mlBoardComputer": null,
+      "mlRainSensor": null,
+      "mlRemoteRadioControl": null,
+      "mlAssistedSteering": null,
+      "mlAlarm": null,
+      "mlAlloyWheels": null,
+      "mlCd": null,
+      "mlLeatherSeats": null,
+      "mlSku": null,
+      "mlImagesHash": "hash-1754339829259-6",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-6",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
+      "Category": {
+        "id": "suv",
+        "name": "suv"
       },
       "images": [
         {
@@ -944,37 +680,37 @@
       ]
     },
     {
-      "price": 35000,
-      "position": 11000,
+      "price": 21000000,
+      "position": 8000,
       "downPayment": null,
-      "id": "generated-1754185486241-10",
-      "brand": "Jeep",
-      "model": "Ika",
-      "year": 2000,
-      "color": "Rojo",
-      "currency": "USD",
-      "description": "Características jeep: Cuerpo de inyeccion americano marca sniper4x4 con alta y baja Malacate de plasma Motor 250 chevrolet forjado.Radiador aluminio. A/C y calefaccion. Direccion hidraulica.Caja zf.4x4 alta baja reductora dana 20.Cubos magicos. 2 amortiguadores x rueda bastago wrangler.Accesorios exterior usa. Bidon auxilio nafta.Hif lif crique usa.Freno a disco x 4.Embrague conpeticion con bomba hidraulica.Cubiertas bfgoodrich 15x10.Opticas hella y pia japonesa barra led.Paragolpes hecho medida.Chasis ika carroceria cobra cj5. Relojeria chevrolet ss.Apoya cabezas pantalla dvd.Butacas cuero peugeot 308.Reforma asiento trasero con cinturon seguridad.Equipo musica con potencia stereo pantalla tactil.Gancho remolque reforzado..Rueda auxilio bfgoodrich.Agarraderas usa.Barra agarrada chasis.Entre otras características",
-      "categoryId": "f40b217f-239d-47a7-b7f4-b630e283d30e",
-      "dealershipId": "dealership-parque_automotores",
-      "mileage": 1111111,
-      "transmission": "Manual",
+      "id": "generated-1754339829259-7",
+      "brand": "Ford",
+      "model": "Focus",
+      "year": 2018,
+      "color": "Gris",
+      "currency": "ARS",
+      "description": "Somos una agencia llamada Parqueautomotres, con mas de 50 años de experiencia. \nEstamos de lunes a sábado de 9 a 18 hrs. \nEn la Matanza, Isidro Casanova Juan Manuel de Rosas 8798",
+      "categoryId": "sedán",
+      "dealershipId": "dealership-parque-automotores",
+      "mileage": 118000,
+      "transmission": "Automática",
       "fuel": "Nafta",
-      "doors": 2,
+      "doors": 4,
       "active": true,
       "featured": false,
       "favorite": false,
       "lastFeaturedAt": null,
       "lastFavoriteAt": null,
-      "mlId": "MLA1492903533",
-      "mlUrl": "auto.mercadolibre.com.ar/MLA-1492903533-jeep-ika-cj5-corto-_JM",
-      "mlScrapedAt": "2025-08-03T01:44:46.241Z",
-      "mlTitle": "Jeep Ika Cj5 Corto Cj5",
+      "mlId": "MLA1493536737",
+      "mlUrl": "auto.mercadolibre.com.ar/MLA-1493536737-ford-focus-_JM",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
+      "mlTitle": "Ford Focus Se Plus",
       "mlCleanPrice": null,
       "mlLocation": null,
       "mlCondition": null,
       "mlListId": null,
-      "mlBodyType": null,
-      "mlEngine": null,
+      "mlBodyType": "Sedán",
+      "mlEngine": "2.0",
       "mlPower": null,
       "mlGears": null,
       "mlDimensions": null,
@@ -998,13 +734,277 @@
       "mlCd": null,
       "mlLeatherSeats": null,
       "mlSku": null,
-      "mlImagesHash": "hash-1754185486241-10",
-      "mlImagesLastUpdated": "2025-08-03T01:44:46.241Z",
-      "catalogChecksum": "checksum-1754185486241-10",
-      "createdAt": "2025-08-03T01:44:46.241Z",
-      "updatedAt": "2025-08-03T01:44:46.241Z",
+      "mlImagesHash": "hash-1754339829259-7",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-7",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
       "Category": {
-        "id": "f40b217f-239d-47a7-b7f4-b630e283d30e",
+        "id": "sedán",
+        "name": "sedán"
+      },
+      "images": [
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_860364-MLA83908697110_042025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_728400-MLA84203052715_042025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_684861-MLA83908459206_042025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_771529-MLA83908469368_042025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_803364-MLA84202904285_042025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_702207-MLA83908469366_042025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_624192-MLA83908528760_042025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_628619-MLA83908558670_042025-F.webp"
+        }
+      ]
+    },
+    {
+      "price": 34000,
+      "position": 9000,
+      "downPayment": null,
+      "id": "generated-1754339829259-8",
+      "brand": "Amarok",
+      "model": "V6",
+      "year": 2019,
+      "color": "Azul",
+      "currency": "USD",
+      "description": "",
+      "categoryId": "pick-up",
+      "dealershipId": "dealership-parque-automotores",
+      "mileage": 73000,
+      "transmission": "Manual",
+      "fuel": "Diésel",
+      "doors": 4,
+      "active": true,
+      "featured": false,
+      "favorite": false,
+      "lastFeaturedAt": null,
+      "lastFavoriteAt": null,
+      "mlId": "MLA1491557107",
+      "mlUrl": "auto.mercadolibre.com.ar/MLA-1491557107-amarok-v6-comfortline-_JM",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
+      "mlTitle": "Amarok V6 Comfortline V6",
+      "mlCleanPrice": null,
+      "mlLocation": null,
+      "mlCondition": null,
+      "mlListId": null,
+      "mlBodyType": "Pick-Up",
+      "mlEngine": "v6",
+      "mlPower": null,
+      "mlGears": null,
+      "mlDimensions": null,
+      "mlFuelCapacity": null,
+      "mlValvesPerCylinder": null,
+      "mlSeatCapacity": null,
+      "mlTractionControl": null,
+      "mlAbsBrakes": null,
+      "mlAutoHeadlights": null,
+      "mlAirbags": null,
+      "mlStabilityControl": null,
+      "mlSingleOwner": null,
+      "mlAcceptsTrade": null,
+      "mlAirConditioning": null,
+      "mlBoardComputer": null,
+      "mlRainSensor": null,
+      "mlRemoteRadioControl": null,
+      "mlAssistedSteering": null,
+      "mlAlarm": null,
+      "mlAlloyWheels": null,
+      "mlCd": null,
+      "mlLeatherSeats": null,
+      "mlSku": null,
+      "mlImagesHash": "hash-1754339829259-8",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-8",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
+      "Category": {
+        "id": "pick-up",
+        "name": "pick-up"
+      },
+      "images": [
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_708924-MLA84005570107_042025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_904323-MLA84005539939_042025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_830856-MLA83712030866_042025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_698548-MLA84005599259_042025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_620938-MLA83712030868_042025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_816006-MLA84005539933_042025-OO.jpg"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_937041-MLA84005629109_042025-OO.jpg"
+        }
+      ]
+    },
+    {
+      "price": 75000000,
+      "position": 10000,
+      "downPayment": null,
+      "id": "generated-1754339829259-9",
+      "brand": "Toyota",
+      "model": "Hilux",
+      "year": 2024,
+      "color": "Rojo",
+      "currency": "ARS",
+      "description": "Parque Automotores | Más de 50 años de confianza y experiencia\n\nEn Parque Automotores llevamos más de medio siglo ofreciendo vehículos de calidad, con atención personalizada, transparencia y compromiso con cada cliente.\nEstamos ubicados en Juan Manuel de Rosas 8798, La Matanza, un punto estratégico para quienes buscan su próximo auto con confianza y respaldo.\nContamos con una amplia variedad de autos seleccionados, 100% verificados, y un equipo de asesores listos para ayudarte a encontrar el vehículo ideal.\nTe esperamos de lunes a sábado de 9 a 18 horas.\n\nElegí con seguridad. Elegí experiencia. Elegí Parque Automotores.",
+      "categoryId": "pick-up",
+      "dealershipId": "dealership-parque-automotores",
+      "mileage": 1200,
+      "transmission": "Automática",
+      "fuel": "Nafta",
+      "doors": 4,
+      "active": true,
+      "featured": false,
+      "favorite": false,
+      "lastFeaturedAt": null,
+      "lastFavoriteAt": null,
+      "mlId": "MLA1494303591",
+      "mlUrl": "auto.mercadolibre.com.ar/MLA-1494303591-toyota-hilux-gr4-_JM",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
+      "mlTitle": "Toyota Hilux Gr4 2.8 Gr4",
+      "mlCleanPrice": null,
+      "mlLocation": null,
+      "mlCondition": null,
+      "mlListId": null,
+      "mlBodyType": "Pick-Up",
+      "mlEngine": "2.8",
+      "mlPower": null,
+      "mlGears": null,
+      "mlDimensions": null,
+      "mlFuelCapacity": null,
+      "mlValvesPerCylinder": null,
+      "mlSeatCapacity": null,
+      "mlTractionControl": null,
+      "mlAbsBrakes": null,
+      "mlAutoHeadlights": null,
+      "mlAirbags": null,
+      "mlStabilityControl": null,
+      "mlSingleOwner": null,
+      "mlAcceptsTrade": null,
+      "mlAirConditioning": null,
+      "mlBoardComputer": null,
+      "mlRainSensor": null,
+      "mlRemoteRadioControl": null,
+      "mlAssistedSteering": null,
+      "mlAlarm": null,
+      "mlAlloyWheels": null,
+      "mlCd": null,
+      "mlLeatherSeats": null,
+      "mlSku": null,
+      "mlImagesHash": "hash-1754339829259-9",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-9",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
+      "Category": {
+        "id": "pick-up",
+        "name": "pick-up"
+      },
+      "images": [
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_648156-MLA84294015099_052025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_671665-MLA84293985377_052025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_879762-MLA84293975981_052025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_734553-MLA84293985375_052025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_898951-MLA84293985381_052025-F.webp"
+        },
+        {
+          "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_867562-MLA84293976003_052025-F.webp"
+        }
+      ]
+    },
+    {
+      "price": 35000,
+      "position": 11000,
+      "downPayment": null,
+      "id": "generated-1754339829259-10",
+      "brand": "Jeep",
+      "model": "Ika",
+      "year": 2000,
+      "color": "Rojo",
+      "currency": "USD",
+      "description": "Características jeep: \n\nCuerpo de inyeccion americano marca sniper\n4x4 con alta y baja \nMalacate de plasma \nMotor 250 chevrolet forjado.\nRadiador aluminio. \nA/C y calefaccion. \nDireccion hidraulica.\nCaja zf.\n4x4 alta baja reductora dana 20.\nCubos magicos. \n2 amortiguadores x rueda bastago wrangler.\nAccesorios exterior usa. \nBidon auxilio nafta.\nHif lif crique usa.\nFreno a disco x 4.\nEmbrague conpeticion con bomba hidraulica.\nCubiertas bfgoodrich 15x10.\nOpticas hella y pia japonesa barra led.\nParagolpes hecho medida.\nChasis ika carroceria cobra cj5. \nRelojeria chevrolet ss.\nApoya cabezas pantalla dvd.\nButacas cuero peugeot 308.\nReforma asiento trasero con cinturon seguridad.\nEquipo musica con potencia stereo pantalla tactil.\nGancho remolque reforzado..\nRueda auxilio bfgoodrich.\nAgarraderas usa.\nBarra agarrada chasis.\nEntre otras características",
+      "categoryId": "autos",
+      "dealershipId": "dealership-parque-automotores",
+      "mileage": 1111111,
+      "transmission": "Manual",
+      "fuel": "Nafta",
+      "doors": 2,
+      "active": true,
+      "featured": false,
+      "favorite": false,
+      "lastFeaturedAt": null,
+      "lastFavoriteAt": null,
+      "mlId": "MLA1492903533",
+      "mlUrl": "auto.mercadolibre.com.ar/MLA-1492903533-jeep-ika-cj5-corto-_JM",
+      "mlScrapedAt": "2025-08-04T20:37:09.259Z",
+      "mlTitle": "Jeep Ika Cj5 Corto Cj5",
+      "mlCleanPrice": null,
+      "mlLocation": null,
+      "mlCondition": null,
+      "mlListId": null,
+      "mlBodyType": null,
+      "mlEngine": "chevrolet 250",
+      "mlPower": null,
+      "mlGears": null,
+      "mlDimensions": null,
+      "mlFuelCapacity": null,
+      "mlValvesPerCylinder": null,
+      "mlSeatCapacity": null,
+      "mlTractionControl": null,
+      "mlAbsBrakes": null,
+      "mlAutoHeadlights": null,
+      "mlAirbags": null,
+      "mlStabilityControl": null,
+      "mlSingleOwner": null,
+      "mlAcceptsTrade": null,
+      "mlAirConditioning": null,
+      "mlBoardComputer": null,
+      "mlRainSensor": null,
+      "mlRemoteRadioControl": null,
+      "mlAssistedSteering": null,
+      "mlAlarm": null,
+      "mlAlloyWheels": null,
+      "mlCd": null,
+      "mlLeatherSeats": null,
+      "mlSku": null,
+      "mlImagesHash": "hash-1754339829259-10",
+      "mlImagesLastUpdated": "2025-08-04T20:37:09.259Z",
+      "catalogChecksum": "checksum-1754339829259-10",
+      "createdAt": "2025-08-04T20:37:09.259Z",
+      "updatedAt": "2025-08-04T20:37:09.259Z",
+      "Category": {
+        "id": "autos",
         "name": "autos"
       },
       "images": [
