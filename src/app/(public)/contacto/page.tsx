@@ -68,19 +68,19 @@ const ContactoPage = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.3 }}
                     viewport={{ once: true }}
-                    className='group flex items-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
+                    className='group flex items-center p-6 bg-color-bg-secondary rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
                   >
                     <div className='flex-shrink-0 w-14 h-14 bg-color-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
                       <WhatsappFillIcon className='w-7 h-7 text-white' />
                     </div>
                     <div className='ml-6 flex-1'>
-                      <h3 className='text-lg font-semibold text-gray-900 group-hover:text-color-primary transition-colors'>
+                      <h3 className='text-lg font-semibold text-color-title-light group-hover:text-color-primary-light transition-colors'>
                         WhatsApp
                       </h3>
-                      <p className='text-gray-600 text-base font-medium'>
+                      <p className='text-color-text-light text-base font-medium'>
                         {company.whatsapp[0]}
                       </p>
-                      <p className='text-sm text-color-primary font-medium mt-1'>
+                      <p className='text-sm text-color-primary-light font-medium mt-1'>
                         Respuesta inmediata →
                       </p>
                     </div>
@@ -95,19 +95,19 @@ const ContactoPage = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.4 }}
                     viewport={{ once: true }}
-                    className='group flex items-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
+                    className='group flex items-center p-6 bg-color-bg-secondary rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
                   >
                     <div className='flex-shrink-0 w-14 h-14 bg-color-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
                       <InstagramIcon className='w-7 h-7 text-white' />
                     </div>
                     <div className='ml-6 flex-1'>
-                      <h3 className='text-lg font-semibold text-gray-900 group-hover:text-color-primary transition-colors'>
+                      <h3 className='text-lg font-semibold text-color-title-light group-hover:text-color-primary-light transition-colors'>
                         Instagram
                       </h3>
-                      <p className='text-gray-600 text-base font-medium'>
+                      <p className='text-color-text-light text-base font-medium'>
                         @{company.instagram}
                       </p>
-                      <p className='text-sm text-color-primary font-medium mt-1'>
+                      <p className='text-sm text-color-primary-light font-medium mt-1'>
                         Seguinos y enterate de las novedades →
                       </p>
                     </div>
@@ -122,19 +122,19 @@ const ContactoPage = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
                     viewport={{ once: true }}
-                    className='group flex items-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
+                    className='group flex items-center p-6 bg-color-bg-secondary rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
                   >
                     <div className='flex-shrink-0 w-14 h-14 bg-color-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
                       <LocationIcon className='w-7 h-7 text-white' />
                     </div>
                     <div className='ml-6 flex-1'>
-                      <h3 className='text-lg font-semibold text-gray-900 group-hover:text-color-primary transition-colors'>
+                      <h3 className='text-lg font-semibold text-color-title-light group-hover:text-color-primary-light transition-colors'>
                         Ubicación
                       </h3>
-                      <p className='text-gray-600 text-base font-medium'>
+                      <p className='text-color-text-light text-base font-medium'>
                         {company.adress}, {company.city}
                       </p>
-                      <p className='text-sm text-color-primary font-medium mt-1'>
+                      <p className='text-sm text-color-primary-light font-medium mt-1'>
                         Ver en Google Maps →
                       </p>
                     </div>
@@ -151,12 +151,12 @@ const ContactoPage = () => {
                 className='space-y-8'
               >
                 {/* Horarios */}
-                <div className='bg-white rounded-2xl shadow-lg p-8 border border-gray-100'>
+                <div className='bg-color-bg-secondary rounded-2xl shadow-lg p-8'>
                   <div className='flex items-center mb-6'>
                     <div className='w-12 h-12 bg-color-primary rounded-xl flex items-center justify-center'>
                       <ClockIcon className='w-6 h-6 text-white' />
                     </div>
-                    <h3 className='text-2xl font-bold text-color-title ml-4'>
+                    <h3 className='text-2xl font-bold text-color-title-light ml-4'>
                       Horarios de atención
                     </h3>
                   </div>
@@ -165,7 +165,7 @@ const ContactoPage = () => {
                     {company.openDays.map((openDay, idx) => (
                       <div
                         key={idx}
-                        className='bg-color-primary/5 rounded-xl p-4 border border-gray-200'
+                        className='bg-color-bg-primary rounded-xl p-4 border lg:border-2 border-color-primary'
                       >
                         <p className='font-semibold text-color-title mb-2'>
                           {openDay.day}

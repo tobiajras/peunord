@@ -44,33 +44,33 @@ export const metadataCompany = {
 export const preguntas = [
   {
     id: 'preg-1',
-    question: '¿Qué opciones de pago ofrecen?',
+    question: '¿Qué métodos de pago aceptan?',
     answer:
-      'Ofrecemos diferentes opciones de pago para adaptarnos a tus necesidades. Consultanos sobre las alternativas disponibles y te asesoramos para encontrar la mejor opción para ti.',
+      'Aceptamos efectivo, transferencias bancarias y financiación a través de entidades financieras. También trabajamos con permutas y consignaciones. Consultanos para conocer las opciones disponibles según el vehículo.',
   },
   {
     id: 'preg-2',
-    question: '¿Cómo verifican el estado de los vehículos?',
+    question: '¿Los vehículos están revisados?',
     answer:
-      'Todos nuestros vehículos son revisados antes de ser ofrecidos. Realizamos las verificaciones necesarias para asegurar que estén en las mejores condiciones para nuestros clientes.',
+      'Sí, todos nuestros vehículos pasan por una revisión técnica antes de ser ofrecidos. Verificamos el estado mecánico, documentación y funcionamiento general para garantizar la calidad.',
   },
   {
     id: 'preg-3',
-    question: '¿Incluyen algún tipo de garantía?',
+    question: '¿Dan garantía en los vehículos?',
     answer:
-      'Sí, nuestros vehículos incluyen garantía según corresponda. Te informamos sobre los términos y condiciones al momento de la compra para tu tranquilidad.',
+      'Ofrecemos garantía según el estado y antigüedad del vehículo. Los términos específicos se acuerdan al momento de la compra, siempre priorizando la transparencia con nuestros clientes.',
   },
   {
     id: 'preg-4',
-    question: '¿Puedo ver el vehículo antes de decidir?',
+    question: '¿Puedo ir a ver los autos?',
     answer:
-      'Por supuesto, te invitamos a conocer nuestros vehículos personalmente. Coordina una visita con nuestro equipo y te mostramos todo lo que necesites saber.',
+      '¡Por supuesto! Estamos ubicados en Av. Juan Bautista Alberdi 7008, CABA. Te invitamos a visitarnos en nuestro horario de atención para conocer nuestros vehículos personalmente.',
   },
   {
     id: 'preg-5',
-    question: '¿Brindan asesoramiento después de la compra?',
+    question: '¿Hacen permutas y consignaciones?',
     answer:
-      'Sí, nuestro compromiso continúa después de la compra. Estamos disponibles para resolver tus dudas y brindarte el apoyo que necesites con tu vehículo.',
+      'Sí, trabajamos con permutas y consignaciones. Evaluamos tu vehículo y te ofrecemos las mejores condiciones. Contactanos para coordinar una evaluación sin compromiso.',
   },
 ];
 
@@ -94,6 +94,6 @@ export const navigation = [
     id: '3',
     title: 'Contacto',
     url: '/contacto',
-    button: true,
+    button: false,
   },
 ];
