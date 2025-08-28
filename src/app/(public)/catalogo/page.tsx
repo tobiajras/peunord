@@ -103,7 +103,7 @@ const CatalogoPage = () => {
       );
       const categoriasProcesadas = categoriasUnicas.map((cat) => ({
         id: cat.toLowerCase(),
-        name: cat,
+        name: cat.charAt(0).toUpperCase() + cat.slice(1),
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString(),
       }));
@@ -297,7 +297,8 @@ const CatalogoPage = () => {
 
     const matchesMarca = !marcaFilter || car.brand === marcaFilter;
     const matchesCategoria =
-      !categoriaFilter || car.Category.name === categoriaFilter;
+      !categoriaFilter ||
+      car.Category.name.toLowerCase() === categoriaFilter.toLowerCase();
 
     return matchesSearch && matchesMarca && matchesCategoria;
   });

@@ -78,7 +78,7 @@ const HeroHome = () => {
             >
               <Link
                 href='/catalogo'
-                className='group relative px-8 py-4 bg-color-primary hover:bg-color-primary-dark text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform'
+                className='flex group relative px-8 py-4 bg-color-primary hover:bg-color-primary-dark text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform'
               >
                 <span className='relative z-10 flex items-center justify-center gap-2'>
                   <span>Explorar Catálogo</span>

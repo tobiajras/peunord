@@ -254,7 +254,8 @@ export default function AutoDetailPage() {
                 href={`/catalogo?categoria=${car.Category.name.toLowerCase()}`}
               >
                 <p className='text-color-text hover:text-color-primary transition-colors'>
-                  {car.Category.name}
+                  {car.Category.name.charAt(0).toUpperCase() +
+                    car.Category.name.slice(1)}
                 </p>
               </Link>
             </div>
@@ -448,7 +449,8 @@ export default function AutoDetailPage() {
                     </span>
                     <span className='text-color-primary'>•</span>
                     <span className='font-medium text-color-text'>
-                      {car.Category.name}
+                      {car.Category.name.charAt(0).toUpperCase() +
+                        car.Category.name.slice(1)}
                     </span>
                   </div>
                 </div>
