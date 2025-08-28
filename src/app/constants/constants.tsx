@@ -12,7 +12,7 @@ export const company = {
   email: 'contacto@peunord.com.ar',
   instagram: 'peunord',
   facebook: 'https://www.facebook.com/profile.php?id=100090242462161',
-  whatsapp: ['1172080007', '1143115786'],
+  whatsapp: ['1172080007'],
   googlemapsLink: 'https://maps.app.goo.gl/r5XX96KadRZd2dxr7',
   googlemaps:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.034940277005!2d-58.495712893125294!3d-34.50199846449724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb16e398fad59%3A0x596cd87eaabd33f6!2sPeunord!5e0!3m2!1sen!2sar!4v1756166234239!5m2!1sen!2sar',
