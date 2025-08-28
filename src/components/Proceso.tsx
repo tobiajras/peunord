@@ -93,7 +93,7 @@ const Proceso = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true, margin: '0px 0px -100px 0px' }}
-            className='text-color-text max-w-2xl mx-auto md:text-lg font-medium'
+            className='text-color-text max-w-xl mx-auto md:text-lg font-medium'
           >
             En {company.name} te acompañamos en cada paso para que tu
             experiencia sea simple, segura y transparente.
